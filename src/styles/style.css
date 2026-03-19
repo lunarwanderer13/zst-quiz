@@ -43,8 +43,8 @@ body {
 
 section.badges {
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    right: 10px;
+    bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@ section.badges img.badge {
 
 section.badges img.badge:hover {
     width: 75px;
-    margin: 0px;
+    margin: 10px -10px;
     transition: 0.5s;
 }
 
