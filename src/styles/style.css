@@ -173,7 +173,8 @@ section.button-container button {
     height: 5vh;
     color: #eee;
     font-family: "Fredoka One";
-    font-size: large;
+    font-size: x-large;
+    font-weight: 300;
     background-color: #333;
     border: 5px solid #000;
     border-radius: 5px;
@@ -184,5 +185,7 @@ section.button-container button {
 section.button-container button:hover {
     width: 7vw;
     height: 7vh;
+    font-size: xx-large;
+    font-weight: 600;
     transition: 0.5s;
 }
