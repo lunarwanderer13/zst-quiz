@@ -91,10 +91,14 @@ button_prev.addEventListener("click", () => {
         hideQuestion(current)
         current -= 1
         showQuestion(current)
+
+        if (current <= 0) button_prev.disabled = true
     }
 })
 
 button_next.addEventListener("click", () => {
+    button_prev.disabled = false
+
     if (current < questions.length - 1) {
         hideQuestion(current)
         current += 1
@@ -113,6 +117,7 @@ button_reset.addEventListener("click", () => {
     current = 0
     showQuestion(current)
     button_container.className = "button-container"
+    button_prev.disabled = true
     result_screen.className = "results-hidden"
     career_text.innerText = ""
     career_explanation.innerText = ""
