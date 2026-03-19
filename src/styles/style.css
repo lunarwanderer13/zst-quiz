@@ -133,10 +133,12 @@ div.question {
     border-radius: 25px;
     margin-top: 10vh;
     padding: 5vh 5vw;
+    transition: 0.5s;
 }
 
 div.question-hidden {
     display: none;
+    transition: 0.5s;
 }
 
 div.question div.slider {
@@ -169,9 +171,15 @@ section.button-container {
     justify-content: center;
     margin-top: 5vh;
     padding: 5vh 5vw;
+    transition: 0.5s;
 }
 
-section.button-container button {
+section.button-container-hidden {
+    display: none;
+    transition: 0.5s;
+}
+
+section.button-container button, div.results-inner button {
     width: 5vw;
     height: 5vh;
     color: #eee;
@@ -185,10 +193,45 @@ section.button-container button {
     transition: 0.5s;
 }
 
-section.button-container button:hover {
+section.button-container button:hover, div.results-inner button:hover {
     width: 7vw;
     height: 7vh;
     font-size: xx-large;
     font-weight: 600;
     transition: 0.5s;
+}
+
+section.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #00000055;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    z-index: 666;
+    transition: 0.5s;
+}
+
+section.results-hidden {
+    display: none;
+    transition: 0.5s;
+}
+
+div.results-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    color: #000;
+    background-color: #fff;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 50px;
+    padding: 5vh 0vw;
 }

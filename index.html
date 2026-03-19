@@ -36,7 +36,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q1-answer" type="range" min="-5" max="5">
+                    <input id="q1-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q2-answer" type="range" min="-5" max="5">
+                    <input id="q2-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q3-answer" type="range" min="-5" max="5">
+                    <input id="q3-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q4-answer" type="range" min="-5" max="5">
+                    <input id="q4-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q5-answer" type="range" min="-5" max="5">
+                    <input id="q5-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q6-answer" type="range" min="-5" max="5">
+                    <input id="q6-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
@@ -90,13 +90,21 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="slider">
                     <label>Nie</label>
-                    <input id="q7-answer" type="range" min="-5" max="5">
+                    <input id="q7-answer" programming-engineer type="range" min="-5" max="5">
                     <label>Tak</label>
                 </div>
             </div>
-            <section class="button-container">
+            <section id="buttons" class="button-container">
                 <button id="button-prev">&#x2190</button>
                 <button id="button-next">&#x2192</button>
+            </section>
+            <section id="result-screen" class="results-hidden">
+                <div class="results-inner">
+                    <h4>Z twoich odpowiedzi wynika, ze twoim idealnym kierunkiem jest...</h4>
+                    <h2 id="career"></h2>
+                    <p id="career-explanation"></p>
+                    <button id="button-reset"> Reset </button>
+                </div>
             </section>
         </section>
     </main>
