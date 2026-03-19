@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <aside>
+        <a href="https://zst.pulawy.pl/" target="_blank"><img src="src/images/logo.jpg" alt="ZST4"></a>
+        <div class="help">
+            <h3>Jak korzystac z quizu?</h3>
+            <ul>
+                <li>Przesun pasek w lewo lub w prawo, zaleznie od tego jak pytanie odnosi sie do ciebie</li>
+                <li>W lewo oznacza absolutnie sie nie zgadzam</li>
+                <li>W prawo oznacza absolutnie sie zgadzam</li>
+                <li>Pytan jest 7, na koniec otrzymasz swoj wynik</li>
+            </ul>
+        </div>
+        <footer>Quiz stworzony przez<br>LunarWanderer13</footer>
+    </aside>
+    <main>
+        <header>Quiz sprawdzajacy INF.03</header>
+        <section>
+            <div id="q1" class="question">
+                <h2>Pytanie 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q1-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q2" class="question question-hidden">
+                <h2>Pytanie 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q2-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q3" class="question question-hidden">
+                <h2>Pytanie 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q3-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q4" class="question question-hidden">
+                <h2>Pytanie 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q4-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q5" class="question question-hidden">
+                <h2>Pytanie 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q5-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q6" class="question question-hidden">
+                <h2>Pytanie 6</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q6-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <div id="q7" class="question question-hidden">
+                <h2>Pytanie 7</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="slider">
+                    <label>Nie</label>
+                    <input id="q7-answer" type="range" min="-5" max="5">
+                    <label>Tak</label>
+                </div>
+            </div>
+            <section class="button-container">
+                <button id="button-prev">&lt;=</button>
+                <button id="button-next">=&gt;</button>
+            </section>
+        </section>
+    </main>
+
+    <section class="badges">
+        <img class="badge" src="src/images/100-human.png" alt="100-human.png">
+        <img class="badge" src="src/images/no-ai.png" alt="no-ai.png">
+        <a href=""><img class="badge" src="src/images/github.png" alt="github.png"></a>
+    </section>
+
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>

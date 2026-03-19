@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Fredoka One";
+    src: url(../fonts/fredoka-one/FredokaOne-Regular.ttf);
+    font-size: normal;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Fredoka One", "Comic Sans MS", sans-serif, serif;
+    margin: 0;
+    text-align: center;
+}
+
+section.badges {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.badges img.badge {
+    width: 50px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+section.badges img.badge:hover {
+    width: 75px;
+    margin: 0px;
+    transition: 0.5s;
+}
+
+aside {
+    background-color: #333;
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+aside a img, aside div.help {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 50%;
+    margin: 10% auto 0%;
+    padding: 10%;
+    transition: 0.5s;
+}
+
+aside a img:hover {
+    width: 55%;
+    transition: 0.5s;
+}
+
+aside footer {
+    position: fixed;
+    width: 20%;
+    height: 10%;
+    background-color: #111;
+    color: #eee;
+    padding-top: 1%;
+    bottom: 0;
+}
+
+main {
+    width: 80%;
+    float: right;
+}
+
+main header {
+    color: #eee;
+    background-color: #333;
+    font-size: 2em;
+    padding: 5%;
+    transition: 0.5s;
+}
+
+main header:hover {
+    font-size: 2.5em;
+    transition: 0.5s;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 20vh;
+    background-color: #ccc;
+    border-radius: 25px;
+    margin-top: 10vh;
+    padding: 5vh 5vw;
+}
+
+div.question-hidden {
+    display: none;
+}
+
+div.question div.slider {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height: 1vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+div.question div.slider input {
+    width: 20vw;
+}
+
+div.question div.slider label {
+    width: 5vw;
+    font-size: x-large;
+}
+
+section.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 5vh;
+    background-color: #ccc;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    padding: 5vh 5vw;
+}
+
+section.button-container button {
+    width: 5vw;
+    height: 5vh;
+    color: #eee;
+    font-family: "Fredoka One";
+    font-size: large;
+    background-color: #333;
+    border: 5px solid #000;
+    border-radius: 5px;
+    margin: 0vh 3vw;
+    transition: 0.5s;
+}
+
+section.button-container button:hover {
+    width: 7vw;
+    height: 7vh;
+    transition: 0.5s;
+}
